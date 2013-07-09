@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "asdf"
+    "url": "https://github.com/scottcorgan/query-parse.git"
   },
   "keywords": [
     "query",
