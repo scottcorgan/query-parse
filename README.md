@@ -10,7 +10,7 @@ npm install query-parse --save
 
 ## Usage
 
-```
+```javascript
 var qp = require('query-parse');
 
 var paramStr = qp.toString({
@@ -19,6 +19,14 @@ var paramStr = qp.toString({
 });
 
 // Outputs: "param1=foo&param2=bar";
+
+var paramObj = qp.toObject('param1=foo&param2=bar&param3=');
+
+// Outputs: 
+//  {
+//    param1: 'foo',
+//    param2: 'bar'
+//  }
 
 ```
 
