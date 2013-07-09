@@ -1,0 +1,25 @@
+{
+  "name": "query-parse",
+  "version": "0.1.0",
+  "description": "Parse query strings to objects and objects to strings. Hides null or empty values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asdf"
+  },
+  "keywords": [
+    "query",
+    "string",
+    "parser",
+    "params",
+    "parameters"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
