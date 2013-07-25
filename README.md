@@ -25,6 +25,8 @@ var paramObj = qp.toObject('param1=foo&param2=bar&param3=');
 //    param1: 'foo',
 //    param2: 'bar'
 //  }
+//
+// Ignores blank parameters for both toString and toObject
 
 ```
 
