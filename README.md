@@ -1,6 +1,6 @@
 # query-parse
 
-Parse query strings to objects and objects to strings. Hides null or empty values.
+Parse query strings to objects and objects to strings. USEFUL: Removes null or empty values.
 
 ## Install
 

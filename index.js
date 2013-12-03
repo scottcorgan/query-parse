@@ -2,18 +2,18 @@ var querystring = require('querystring');
 
 var qp = {
   toString: function (params) {
-    var _queryStr = '';
+    var str = '';
     Object.keys(params).forEach(function (key) {
       if (params[key] !== undefined) {
-        if (_queryStr !== '') {
-          _queryStr += '&';
+        if (str !== '') {
+          str += '&';
         }
         
-        _queryStr += key + '=' + encodeURIComponent(params[key]);
+        str += key + '=' + encodeURIComponent(params[key]);
       }
     });
     
-    return _queryStr;
+    return str;
   },
   
   toObject: function (str) {
