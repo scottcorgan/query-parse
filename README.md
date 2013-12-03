@@ -4,9 +4,7 @@ Parse query strings to objects and objects to strings. USEFUL: Removes null or e
 
 ## Install
 
-```
-npm install query-parse --save
-```
+[![NPM](https://nodei.co/npm/query-parse.png)](https://nodei.co/npm/query-parse/)
 
 ## Usage
 
@@ -27,6 +25,8 @@ var paramObj = qp.toObject('param1=foo&param2=bar&param3=');
 //    param1: 'foo',
 //    param2: 'bar'
 //  }
+//
+// Ignores blank parameters for both toString and toObject
 
 ```
 
