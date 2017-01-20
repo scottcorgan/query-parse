@@ -1,6 +1,6 @@
 {
   "name": "query-parse",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Parse query strings to objects and objects to strings. Hides null or empty values.",
   "main": "index.js",
   "scripts": {
