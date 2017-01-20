@@ -21,5 +21,8 @@
   "license": "MIT",
   "devDependencies": {
     "tape": "~1.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
