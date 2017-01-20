@@ -1,6 +1,8 @@
 # query-parse
 
-Parse query strings to objects and objects to strings. USEFUL: Removes null or empty values.
+Parse query strings to objects and objects to strings.
+
+USEFUL: Removes null or empty values. It also sorts the params alphabetically, so you will always get the same string for the same params.
 
 ## Install
 
@@ -20,7 +22,7 @@ var paramStr = qp.toString({
 
 var paramObj = qp.toObject('param1=foo&param2=bar&param3=');
 
-// Outputs: 
+// Outputs:
 //  {
 //    param1: 'foo',
 //    param2: 'bar'
