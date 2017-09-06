@@ -5,7 +5,7 @@ var qp = {
   toString: function (params) {
     var str = '';
     toPairs(params)
-      .sort(function(a, b) { return a[0] > b[0]; })
+      .sort()
       .map(function(param) {
           if (param[1] !== undefined) {
               if (str !== '') str += '&';
